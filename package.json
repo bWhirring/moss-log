@@ -1,0 +1,23 @@
+{
+  "name": "moss-log",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.es.js",
+  "jsnext:main": "es/index.es.js",
+  "scripts": {
+    "start": "rollup -cw",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "huhu",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.6.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "typescript": "^3.8.3"
+  }
+}
